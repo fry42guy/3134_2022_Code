@@ -60,7 +60,7 @@ public class drivewithLimelightStear extends CommandBase {
     // Called every time the scheduler runs while the command is scheduled.
     @Override
     public void execute() {
-        double kp = .002;
+        double kp = .05;
         double xSpeed = m_mySpeed.getAsDouble();
         double zRotation;
         if (m_MyLimeLightTurn.getIsTargetFound()){

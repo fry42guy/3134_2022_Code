@@ -24,7 +24,7 @@ public class Constants {
 
   public static final double intakespeed = 1.0;
   public static final double drivespeed = 1.0;
-  public static final double driverotatespeed = 0.9;
+  public static final double driverotatespeed = 0.65;
   public static final double shootspeed = 1.0;
   public static final double climbspeed = 1.0;
   
